@@ -1,0 +1,68 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff8e1;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 3em;
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #558b2f;
+}
+
+/* Menu Section */
+.menu h2 {
+  border-bottom: 2px solid #2e7d32;
+  padding-bottom: 5px;
+  color: #33691e;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* Each food item */
+.item {
+  display: inline-block;
+  width: 200px;
+  margin: 15px;
+  vertical-align: top;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  background-color: #f9fbe7;
+  border-radius: 8px;
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
+.item:hover {
+  transform: scale(1.05);
+}
+
+/* Food images */
+.item img {
+  width: 180px;
+  height: 120px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+/* Food names */
+.item p {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #33691e;
+}
